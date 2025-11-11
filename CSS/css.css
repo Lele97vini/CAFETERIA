@@ -1,0 +1,170 @@
+ @charset "UTF-8";
+
+
+ .WRAPPER { 
+  margin:auto; 
+  display: flex;
+  flex-direction:row; 
+  flex-wrap: wrap;  
+  justify-content:center;
+  align-items:center;
+  width: 100%; 
+  height: auto;
+  background-color: #49a0e7;
+  padding: 0px;
+  color: aliceblue;
+ }
+
+
+
+ .BoxLogo{
+    width: 19%;
+    height: 50px;
+    background-color: rgb(53, 53, 117);
+    padding-left: 1%;
+    padding-top: 1%;
+ }
+
+ .TamanhoLogo {
+
+    width: 20%;
+
+ }
+
+ .BoxMenu{
+    width: 80%;
+    height: 50px;
+    padding-top: 1%;
+    background-color:rgb(53, 53, 117);
+ }
+
+ .BoxBanner{
+    width: 100%;
+    height:750px;
+    background-color: rgb(13, 226, 245);
+    background-position: center;
+    background-size: cover;
+ }
+
+ .BannerIndex {
+
+    width: 50%;
+ }
+
+ .BoxTratamentos{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(53, 53, 117);
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+ }
+
+ .BoxCard{
+    width: 20%;
+    height: 500px;
+    background-color: rgb(14, 113, 170);
+    margin: 1%;
+    border-radius: 20px;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    line-height:  1.2;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: aliceblue;
+ }
+
+ h1 {
+
+    font-size:  1.3em;
+ }
+
+
+ .TamanhoIcone {
+
+    width: 20%;
+ }
+
+ 
+ .BoxHarmoniza {    
+
+    width: 35%;
+    height: 450px;
+    margin: 1%;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    line-height:  1.6;
+    letter-spacing: 0.3em;
+    background-color: rgb(53, 53, 117);
+    border-radius: 10%;
+
+}
+
+
+.BoxLinks {
+
+    width: 28%;
+    height: 10px;
+    background-color:  rgb(14, 113, 170);
+    padding: 2.65%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.BoxRodape{
+
+    width: 100%;
+    height: 30px;
+    background-color:  rgb(14, 113, 170);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.3em;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 1%;
+
+}
+
+
+/* NAVEGAÇÃO */
+
+
+
+nav{
+    padding-top: 0.8%;
+	float: right;
+}
+
+nav ul{
+	list-style: none; /*remover bolinhas*/
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li{
+	float: left;
+}
+
+nav ul li a{
+	text-decoration: none; /*remover sublinhado*/
+	color: #000000;
+	padding: 15px 15px 10px 15px;
+}
+
+nav ul li a:hover{ /*hover (mouse sobre o link)*/
+	color: #ccc7c7ef;
+	/*text-decoration: underline;*/
+	border-bottom: #f1e7e7 2px solid;
+}
+
+
+
+ 
+ 
+ 
